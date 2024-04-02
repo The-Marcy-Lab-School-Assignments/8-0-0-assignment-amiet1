@@ -22,7 +22,7 @@ const servePersonal = (req,res,next) => res.send('<h1> Where are you from?</h1>'
 app.get('/about', serveAbout);
 app.get('/personal',servePersonal);
 app.get('/api/data', serveData);
-app.get('/api/hello', serveHello)
+app.get('/api/hello', serveHello);
 
 const port = 8080;
 app.listen(port, () => {
